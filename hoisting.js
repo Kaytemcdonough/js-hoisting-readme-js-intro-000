@@ -11,7 +11,8 @@ function callMe() {
 function callMe() {
   // fix the code in here:
   var lyric = "maybe";
-  return lyric
+  return lyric;
+  callMe()
 }
 var crazy = function(){
 
