@@ -12,15 +12,14 @@ function callMe() {
   // fix the code in here:
   var lyric = "maybe";
   return lyric
-
+}
 var crazy = function(){
 
   var thisIsCrazy = function (){
-    return("hey!!!")
+    console.log("hey!!!")
 
     thisIsCrazy();
   }
-}
 }
 crazy()
 function sayMyName() {
