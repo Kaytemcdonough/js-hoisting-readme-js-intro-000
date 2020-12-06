@@ -8,35 +8,23 @@ function callMe() {
 }
 
 
-function callMe() {
+function crazy() {
   // fix the code in here:
-  var lyric = "maybe";
-  return lyric;
-  callMe()
-}
-var crazy = function(){
+  thisIsCrazy();
 
   var thisIsCrazy = function (){
     console.log("hey!!!")
-
-    thisIsCrazy();
   }
 }
-crazy()
+
 function sayMyName() {
   // fix the code in here:
   var name = "Cricky";
-  function sayMy(){
-    name = "Kristin"
+
+  sayMy();
+
+  function sayMy() {
     console.log(name);
-
+    var name = "Kristin";
   }
-sayMyName()()
-  var sayMyName = function(){
-    var name;
-    name = "Cricky";
-    name= "Kristin";
-
-    sayMy();
-    sayMyName();
-  }
+}
