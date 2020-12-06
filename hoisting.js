@@ -13,8 +13,10 @@ function callMe() {
   var lyric = "maybe";
   return lyric
 
-  var thisIsCrazy = function (thisIsCrazy){
+  var thisIsCrazy = function (){
     console.log("hey!!!")
+
+    thisIsCrazy
   }
 }
 
