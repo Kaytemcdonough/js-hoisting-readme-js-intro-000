@@ -14,7 +14,6 @@ function callMe() {
   return lyric
 
 function crazy(){
-  thisIsCrazy();
 
   var thisIsCrazy = function (){
     console.log("hey!!!")
@@ -33,5 +32,8 @@ function sayMyName() {
   function sayMy() {
     console.log(name);
     var name = "Kristin";
+    console.log(name);
+
+    saymy()
   }
 }
