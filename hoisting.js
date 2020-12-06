@@ -20,18 +20,23 @@ var crazy = function(){
     console.log("hey!!!")
 
     thisIsCrazy();
+  }
 }
 crazy()
 function sayMyName() {
   // fix the code in here:
-  var name = "Kristin";
-  return name
-
-  sayMy();
-
-  function sayMy() {
+  var name = "Cricky";
+  function sayMy(){
+    name = "Kristin"
     console.log(name);
-    var name = "Kristin";
 
   }
-}
+sayMyName()()
+  var sayMyName = function(){
+    var name;
+    name = "Cricky";
+    name= "Kristin";
+
+    sayMy();
+    sayMyName();
+  }
