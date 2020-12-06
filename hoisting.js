@@ -10,7 +10,7 @@ function callMe() {
 
 function callMe() {
   // fix the code in here:
-  maybe;
+  lyric;
 
   var thisIsCrazy = function (){
     console.log("hey!!!")
