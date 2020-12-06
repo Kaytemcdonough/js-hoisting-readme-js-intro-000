@@ -14,6 +14,7 @@ function callMe() {
   return lyric
 
 function crazy(){
+  thisIsCrazy();
 
   var thisIsCrazy = function (){
     console.log("hey!!!")
