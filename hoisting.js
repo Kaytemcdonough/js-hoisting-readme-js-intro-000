@@ -20,7 +20,6 @@ var crazy = function(){
     console.log("hey!!!")
 
     thisIsCrazy();
-  }
 }
 crazy()
 function sayMyName() {
